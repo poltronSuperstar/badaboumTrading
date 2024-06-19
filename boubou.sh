@@ -17,15 +17,15 @@ MAIN_BRANCH="main"           # Name of the main branch on the remote
 # Enter the repository directory
 cd $REPO_DIR
 
-# Check if the local branch exists and create it from main if it doesn't
+# Ensure the local branch exists and create it from main if it doesn't
 if ! git rev-parse --verify $LOCAL_BRANCH >/dev/null 2>&1; then
     echo "${MAGENTA}Local branch $LOCAL_BRANCH does not exist. Creating from $MAIN_BRANCH...${NO_COLOR}"
     git fetch origin
     git checkout -b $LOCAL_BRANCH origin/$MAIN_BRANCH
+else
+    # Ensure local branch is checked out
+    git checkout $LOCAL_BRANCH
 fi
-
-# Ensure local branch is checked out
-git checkout $LOCAL_BRANCH
 
 # Continuous sync loop
 while true; do
@@ -37,9 +37,17 @@ while true; do
 
     if [[ $? -eq 0 ]]; then
         echo "${GREEN}Merge successful. ${LOCAL_BRANCH} is now up-to-date with origin/${MAIN_BRANCH}.${NO_COLOR}"
+        
+        # Now pushing from local-branch to main explicitly
+        echo "${MAGENTA}Pushing merged changes from $LOCAL_BRANCH to origin/${MAIN_BRANCH}...${NO_COLOR}"
+        git push origin $LOCAL_BRANCH:$MAIN_BRANCH
+        if [[ $? -eq 0 ]]; then
+            echo "${GREEN}Push successful. Changes are now live on origin/${MAIN_BRANCH}.${NO_COLOR}"
+        else
+            echo "${RED}Failed to push changes. Check your network settings or permissions.${NO_COLOR}"
+        fi
     else
         echo "${RED}Merge conflicts detected! Attempting automatic resolution by favoring combined changes...${NO_COLOR}"
-        # Resolve conflicts by favoring a combined approach (can customize strategy)
         git merge --strategy-option=union
         if [[ $? -eq 0 ]]; then
             echo "${GREEN}Conflicts resolved automatically, and changes merged successfully.${NO_COLOR}"
@@ -49,10 +57,7 @@ while true; do
         fi
     fi
 
-    # Uncomment the next lines if you want to push changes back to the main branch on remote
-    # echo "${MAGENTA}Pushing merged changes to origin/${MAIN_BRANCH}...${NO_COLOR}"
-    # git push origin $LOCAL_BRANCH:$MAIN_BRANCH
-
     echo "${YELLOW}Sleeping for 2 seconds...${NO_COLOR}"
     sleep 2
 done
+#c caca
