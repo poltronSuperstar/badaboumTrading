@@ -60,6 +60,6 @@ while true; do
     fi
 
     echo "${YELLOW}Sleeping for 2 seconds...${NO_COLOR}"
-    sleep 2
+    sleep 1
 done
 #c caca
