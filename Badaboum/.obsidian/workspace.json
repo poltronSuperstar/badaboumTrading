@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Untitled.md",
+                "file": "rrra.md",
                 "mode": "source",
                 "source": false
               }
@@ -124,7 +124,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Untitled.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -141,7 +140,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Untitled.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -163,9 +161,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Untitled.md"
-              }
+              "state": {}
             }
           }
         ]
@@ -185,10 +181,10 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "8d0bad0beddcf7a7",
+  "active": "981ac459af544a2b",
   "lastOpenFiles": [
+    "rrra.md",
     "Welcome.md",
-    "Untitled.md",
     "popo.md"
   ]
 }
