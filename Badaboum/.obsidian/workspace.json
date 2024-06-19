@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Untitled.md",
+                "file": "Welcome.md",
                 "mode": "source",
                 "source": false
               }
@@ -112,7 +112,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Untitled.md",
+                "file": "Welcome.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -129,7 +129,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Untitled.md",
+                "file": "Welcome.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -152,7 +152,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Untitled.md"
+                "file": "Welcome.md"
               }
             }
           }
@@ -173,9 +173,9 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "f294629201d99503",
+  "active": "17a75318f3e3d986",
   "lastOpenFiles": [
-    "Welcome.md",
-    "Untitled.md"
+    "Untitled.md",
+    "Welcome.md"
   ]
 }
