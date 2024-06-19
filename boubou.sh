@@ -40,7 +40,7 @@ while true; do
         
         # Now pushing from local-branch to main explicitly
         echo "${MAGENTA}Pushing merged changes from $LOCAL_BRANCH to origin/${MAIN_BRANCH}...${NO_COLOR}"
-        
+        git add .
         git commit -am 'oui'
         
         echo "ouioui"
