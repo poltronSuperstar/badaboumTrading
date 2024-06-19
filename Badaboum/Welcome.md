@@ -1,13 +1,14 @@
-<<<<<<< Updated upstream
-This is your new *vault*.
-
-Make a note of something, [[create a link]], or try [the Importer](https://help.obsidian.md/Plugins/Importer)!
-
-When you're ready, delete this note and make the vault your own.
-caca dans les fesses
-
-caca ccaca
 caca
-=======
+# caca
+
+# caca
+
+caca 2caca
 caca
->>>>>>> Stashed changes
+caca
+caca
+caca
+caca
+caca
+caca
+caca
