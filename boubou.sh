@@ -40,6 +40,8 @@ while true; do
         
         # Now pushing from local-branch to main explicitly
         echo "${MAGENTA}Pushing merged changes from $LOCAL_BRANCH to origin/${MAIN_BRANCH}...${NO_COLOR}"
+        git commit -am 'oui'
+        echo "ouioui"
         git push origin $LOCAL_BRANCH:$MAIN_BRANCH
         if [[ $? -eq 0 ]]; then
             echo "${GREEN}Push successful. Changes are now live on origin/${MAIN_BRANCH}.${NO_COLOR}"
