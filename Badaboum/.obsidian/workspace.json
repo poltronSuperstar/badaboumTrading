@@ -6,7 +6,6 @@
       {
         "id": "cbe931bd86860cea",
         "type": "tabs",
-        "dimension": 70.58823529411765,
         "children": [
           {
             "id": "adcdd0fd1058b3ca",
@@ -33,22 +32,47 @@
             }
           },
           {
-            "id": "568c482341e51a8e",
+            "id": "8d0bad0beddcf7a7",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "markdown",
               "state": {
-                "file": "Pasted image 20240619181030.png"
+                "file": "Welcome.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "5556f518782a97f9",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "jaja.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "a7c27bbbce0a4bc8",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "TradingJournalVal/XAUUSD 2024-06-19.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 4
       },
       {
         "id": "fa53c5417b40d7ab",
         "type": "tabs",
-        "dimension": 29.411764705882355,
         "children": [
           {
             "id": "981ac459af544a2b",
@@ -124,7 +148,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Pasted image 20240619181030.png",
+                "file": "TradingJournalVal/XAUUSD 2024-06-19.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -141,7 +165,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Pasted image 20240619181030.png",
+                "file": "TradingJournalVal/XAUUSD 2024-06-19.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -164,7 +188,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Pasted image 20240619181030.png"
+                "file": "TradingJournalVal/XAUUSD 2024-06-19.md"
               }
             }
           }
@@ -185,16 +209,18 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "568c482341e51a8e",
+  "active": "a7c27bbbce0a4bc8",
   "lastOpenFiles": [
+    "Pasted image 20240619181515.png",
     "Untitled.md",
     "TradingJournalVal/XAUUSD 2024-06-19.md",
-    "TradingJournalVal",
     "jaja.md",
-    "Pasted image 20240619181030.png",
-    "rrra.md",
-    "Welcome.md",
+    "Untitled",
+    "TradingJournalVal",
     "ffiicchhhier.md",
+    "Welcome.md",
+    "rrra.md",
+    "Pasted image 20240619181030.png",
     "popo.md"
   ]
 }
