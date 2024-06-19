@@ -42,7 +42,7 @@ while true; do
         echo "${MAGENTA}Pushing merged changes from $LOCAL_BRANCH to origin/${MAIN_BRANCH}...${NO_COLOR}"
         
         git commit -am 'oui'
-        git add .
+        
         echo "ouioui"
         git push origin $LOCAL_BRANCH:$MAIN_BRANCH
         if [[ $? -eq 0 ]]; then
