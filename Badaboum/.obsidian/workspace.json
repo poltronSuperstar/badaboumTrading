@@ -36,11 +36,9 @@
             "id": "568c482341e51a8e",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "image",
               "state": {
-                "file": "jaja.md",
-                "mode": "source",
-                "source": false
+                "file": "Pasted image 20240619181030.png"
               }
             }
           }
@@ -126,7 +124,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "jaja.md",
+                "file": "Pasted image 20240619181030.png",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -143,7 +141,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "jaja.md",
+                "file": "Pasted image 20240619181030.png",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -166,7 +164,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "jaja.md"
+                "file": "Pasted image 20240619181030.png"
               }
             }
           }
@@ -189,11 +187,11 @@
   },
   "active": "568c482341e51a8e",
   "lastOpenFiles": [
+    "jaja.md",
     "Pasted image 20240619181030.png",
     "rrra.md",
     "Welcome.md",
     "ffiicchhhier.md",
-    "jaja.md",
     "popo.md"
   ]
 }
