@@ -6,6 +6,7 @@
       {
         "id": "cbe931bd86860cea",
         "type": "tabs",
+        "dimension": 70.58823529411765,
         "children": [
           {
             "id": "adcdd0fd1058b3ca",
@@ -49,6 +50,7 @@
       {
         "id": "fa53c5417b40d7ab",
         "type": "tabs",
+        "dimension": 29.411764705882355,
         "children": [
           {
             "id": "981ac459af544a2b",
@@ -185,7 +187,7 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "f294629201d99503",
+  "active": "568c482341e51a8e",
   "lastOpenFiles": [
     "Pasted image 20240619181030.png",
     "ffiicchhhier.md",
