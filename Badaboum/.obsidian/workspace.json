@@ -61,7 +61,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "TradingJournalVal/XAUUSD 2024-06-19.md",
+                "file": "rrra.md",
                 "mode": "source",
                 "source": false
               }
@@ -148,6 +148,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "rrra.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -164,6 +165,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "rrra.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -185,7 +187,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "rrra.md"
+              }
             }
           }
         ]
@@ -205,7 +209,7 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "981ac459af544a2b",
+  "active": "a7c27bbbce0a4bc8",
   "lastOpenFiles": [
     "TradingJournalVal/XAUUSD 2024-06-19.md",
     "Pasted image 20240619181515.png",
