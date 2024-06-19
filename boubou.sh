@@ -1,9 +1,12 @@
 #!/bin/zsh
 
-# ANSI Color Codes
-RED='\033[0;31m'
-GREEN='\033[0;32m'
-YELLOW='\033[0;33m'
+# ANSI Color Codes for fancy output
+RED='\033[1;31m'
+GREEN='\033[1;32m'
+BLUE='\033[1;34m'
+YELLOW='\033[1;33m'
+MAGENTA='\033[1;35m'
+CYAN='\033[1;36m'
 NO_COLOR='\033[0m'
 
 # Set the repository directory
@@ -14,35 +17,43 @@ cd $REPO_DIR
 
 # Continuous sync loop
 while true; do
-    echo "${YELLOW}Fetching latest changes from the remote...${NO_COLOR}"
+    echo "${CYAN}Fetching latest changes from the remote...${NO_COLOR}"
     git fetch --all
-    
-    # Check for local uncommitted changes
+
+    # Check for local uncommitted changes and stash them
     if [[ -n $(git status --porcelain) ]]; then
-        echo "${RED}Uncommitted changes detected! Resetting to match remote...${NO_COLOR}"
-        git reset --hard origin/master
-    else
-        echo "${GREEN}No local changes detected.${NO_COLOR}"
+        echo "${MAGENTA}Stashing local changes...${NO_COLOR}"
+        git stash push -u -m "Auto-stashed by sync script"
+        STASH_APPLIED=1
     fi
 
-    # Check for remote changes and local commit differences
-    LOCAL=$(git rev-parse @)
-    REMOTE=$(git rev-parse @{u})
-    BASE=$(git merge-base @ @{u})
+    # Merge changes from remote, prioritizing content inclusion
+    echo "${BLUE}Merging changes from ${REMOTE_BRANCH}...${NO_COLOR}"
+    git merge --no-ff --strategy-option=theirs origin/main
 
-    if [ $LOCAL = $REMOTE ]; then
-        echo "${GREEN}Up-to-date with remote. No action required.${NO_COLOR}"
-    elif [ $LOCAL = $BASE ]; then
-        echo "${YELLOW}Pulling latest changes...${NO_COLOR}"
-        git pull
-        echo "${GREEN}Pull successful.${NO_COLOR}"
-    elif [ $REMOTE = $BASE ]; then
-        echo "${YELLOW}Local changes need to be pushed. Resetting to remote...${NO_COLOR}"
-        git reset --hard origin/master
-        git pull
+    if [[ $? -eq 0 ]]; then
+        echo "${GREEN}Merge successful. Local repository is up-to-date with remote.${NO_COLOR}"
     else
-        echo "${RED}Divergence detected, resetting local changes to match remote...${NO_COLOR}"
-        git reset --hard origin/master
+        echo "${RED}Merge conflicts detected! Attempting automatic resolution by favoring combined changes...${NO_COLOR}"
+        git merge --strategy-option=theirs
+        if [[ $? -eq 0 ]]; then
+            echo "${GREEN}Conflicts resolved automatically, and changes merged successfully.${NO_COLOR}"
+        else
+            echo "${RED}Unable to resolve conflicts automatically. Manual intervention required.${NO_COLOR}"
+            break
+        fi
+    fi
+
+    # Reapply stashed changes if there were any
+    if [[ $STASH_APPLIED -eq 1 ]]; then
+        echo "${MAGENTA}Reapplying stashed changes...${NO_COLOR}"
+        git stash pop
+        if [[ -n $(git status --porcelain) ]]; then
+            echo "${RED}Conflicts detected after reapplying stashed changes! Please resolve manually.${NO_COLOR}"
+        else
+            echo "${GREEN}Stashed changes reapplied successfully.${NO_COLOR}"
+        fi
+        unset STASH_APPLIED
     fi
 
     # Sleep for 2 seconds before the next poll
