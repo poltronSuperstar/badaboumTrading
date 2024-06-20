@@ -1,0 +1,1 @@
+https://www.tradingview.com/chart/3tErSoCM/?symbol=FX%3AEURUSD
