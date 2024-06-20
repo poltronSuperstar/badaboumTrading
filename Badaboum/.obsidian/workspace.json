@@ -19,8 +19,13 @@
             "id": "68197daf2fc87274",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Trading Journal _mybite/this is for my pips.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
             }
           }
         ],
@@ -117,6 +122,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Trading Journal _mybite/this is for my pips.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -127,7 +133,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Trading Journal _mybite/this is for my pips.md"
+              }
             }
           },
           {
@@ -136,6 +144,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Trading Journal _mybite/this is for my pips.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -204,7 +213,7 @@
       "map-of-content:Update Map of Content": false
     }
   },
-  "active": "68b88025b3807c26",
+  "active": "68197daf2fc87274",
   "lastOpenFiles": [
     "1_LEGACY_HSTORIC_VAULT/Daily Notes by year🧵🪡/2024/19-06-2024.md",
     "0_New_VAULT/Doing/AREALTI/Arealti👋👈✅MAIA/Business/Communications/Sharing Benchmark.md",
