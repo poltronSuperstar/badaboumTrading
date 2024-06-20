@@ -1,22 +1,289 @@
 {
-  "collapse-filter": true,
-  "search": "",
-  "showTags": false,
+  "collapse-filter": false,
+  "search": "AGI",
+  "showTags": true,
   "showAttachments": false,
-  "hideUnresolved": false,
+  "hideUnresolved": true,
   "showOrphans": true,
-  "collapse-color-groups": true,
-  "colorGroups": [],
-  "collapse-display": true,
+  "collapse-color-groups": false,
+  "colorGroups": [
+    {
+      "query": "tag:#AI",
+      "color": {
+        "a": 1,
+        "rgb": 14650317
+      }
+    },
+    {
+      "query": "tag:#AIA ",
+      "color": {
+        "a": 1,
+        "rgb": 14725458
+      }
+    },
+    {
+      "query": "tag:#USISWE",
+      "color": {
+        "a": 1,
+        "rgb": 11657298
+      }
+    },
+    {
+      "query": "tag:#blockchain",
+      "color": {
+        "a": 1,
+        "rgb": 14701233
+      }
+    },
+    {
+      "query": "tag:#2Do  ",
+      "color": {
+        "a": 1,
+        "rgb": 14701138
+      }
+    },
+    {
+      "query": "tag:#meeXers  ",
+      "color": {
+        "a": 1,
+        "rgb": 14725458
+      }
+    },
+    {
+      "query": "tag:#perso",
+      "color": {
+        "a": 1,
+        "rgb": 5431378
+      }
+    },
+    {
+      "query": "tag:#productivity ",
+      "color": {
+        "a": 1,
+        "rgb": 5431473
+      }
+    },
+    {
+      "query": "tag:#productivité",
+      "color": {
+        "a": 1,
+        "rgb": 5419488
+      }
+    },
+    {
+      "query": "tag:#Shortcut",
+      "color": {
+        "a": 1,
+        "rgb": 5419488
+      }
+    },
+    {
+      "query": "tag:#neurodivergence",
+      "color": {
+        "a": 1,
+        "rgb": 5395026
+      }
+    },
+    {
+      "query": "tag:#KB",
+      "color": {
+        "a": 1,
+        "rgb": 8021606
+      }
+    },
+    {
+      "query": "tag:#secu",
+      "color": {
+        "a": 1,
+        "rgb": 6654869
+      }
+    },
+    {
+      "query": "tag:#showerThought",
+      "color": {
+        "a": 1,
+        "rgb": 9412162
+      }
+    },
+    {
+      "query": "tag:#Privacy",
+      "color": {
+        "a": 1,
+        "rgb": 14012590
+      }
+    },
+    {
+      "query": "tag:#democracy",
+      "color": {
+        "a": 1,
+        "rgb": 13411282
+      }
+    },
+    {
+      "query": "tag:#linux",
+      "color": {
+        "a": 1,
+        "rgb": 13266285
+      }
+    },
+    {
+      "query": "tag:#brew",
+      "color": {
+        "a": 1,
+        "rgb": 8963298
+      }
+    },
+    {
+      "query": "tag:#TDA",
+      "color": {
+        "a": 1,
+        "rgb": 12152771
+      }
+    },
+    {
+      "query": "tag:#HPI",
+      "color": {
+        "a": 1,
+        "rgb": 11463597
+      }
+    },
+    {
+      "query": "tag:#ideas",
+      "color": {
+        "a": 1,
+        "rgb": 6981858
+      }
+    },
+    {
+      "query": "tag:#python",
+      "color": {
+        "a": 1,
+        "rgb": 16734081
+      }
+    },
+    {
+      "query": "tag:#collapso",
+      "color": {
+        "a": 1,
+        "rgb": 10794319
+      }
+    },
+    {
+      "query": "tag:#Obsidian",
+      "color": {
+        "a": 1,
+        "rgb": 7442896
+      }
+    },
+    {
+      "query": "tag:#tool",
+      "color": {
+        "a": 1,
+        "rgb": 6721398
+      }
+    },
+    {
+      "query": "tag:#learn",
+      "color": {
+        "a": 1,
+        "rgb": 12366670
+      }
+    },
+    {
+      "query": "tag:#Data",
+      "color": {
+        "a": 1,
+        "rgb": 6844854
+      }
+    },
+    {
+      "query": "tag:#OSINT",
+      "color": {
+        "a": 1,
+        "rgb": 10804191
+      }
+    },
+    {
+      "query": "tag:#Cyber",
+      "color": {
+        "a": 1,
+        "rgb": 10700872
+      }
+    },
+    {
+      "query": "tag:#showerThoughts ",
+      "color": {
+        "a": 1,
+        "rgb": 12629240
+      }
+    },
+    {
+      "query": "tag:#automation",
+      "color": {
+        "a": 1,
+        "rgb": 8410758
+      }
+    },
+    {
+      "query": "tag:#make",
+      "color": {
+        "a": 1,
+        "rgb": 2175101
+      }
+    },
+    {
+      "query": "tag:#infostruc",
+      "color": {
+        "a": 1,
+        "rgb": 7244198
+      }
+    },
+    {
+      "query": "tag:#WE",
+      "color": {
+        "a": 1,
+        "rgb": 12854512
+      }
+    },
+    {
+      "query": "tag:#Privacy",
+      "color": {
+        "a": 1,
+        "rgb": 7660795
+      }
+    },
+    {
+      "query": "tag:#prompt",
+      "color": {
+        "a": 1,
+        "rgb": 14145850
+      }
+    },
+    {
+      "query": "tag:#ideebiz",
+      "color": {
+        "a": 1,
+        "rgb": 15124356
+      }
+    },
+    {
+      "query": "AGI",
+      "color": {
+        "a": 1,
+        "rgb": 5121473
+      }
+    }
+  ],
+  "collapse-display": false,
   "showArrow": false,
-  "textFadeMultiplier": 0,
-  "nodeSizeMultiplier": 1,
-  "lineSizeMultiplier": 1,
-  "collapse-forces": true,
-  "centerStrength": 0.518713248970312,
-  "repelStrength": 10,
-  "linkStrength": 1,
-  "linkDistance": 250,
-  "scale": 1,
-  "close": true
+  "textFadeMultiplier": -0.2,
+  "nodeSizeMultiplier": 1.69285888671875,
+  "lineSizeMultiplier": 1.657568359375,
+  "collapse-forces": false,
+  "centerStrength": 0.363566080729167,
+  "repelStrength": 17.6652018229167,
+  "linkStrength": 0.919840494791667,
+  "linkDistance": 386,
+  "scale": 0.1151490993797515,
+  "close": false
 }

@@ -1,0 +1,264 @@
+{
+  "main": {
+    "id": "ff17785edf7c7087",
+    "type": "split",
+    "children": [
+      {
+        "id": "a594fca99fd66b98",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "e53b23f36ba2d123",
+            "type": "leaf",
+            "state": {
+              "type": "card-board-view",
+              "state": {}
+            }
+          },
+          {
+            "id": "a71854a1d5dd8741",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Tech🪐⚛️🧚🦄⚡️🧚✨/Music 1/chord_definitions notation converter.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "26949ea91a8fb1db",
+    "type": "split",
+    "children": [
+      {
+        "id": "a7e5892b061df8b6",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "9f004add38e0b7bc",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "byModifiedTime"
+              }
+            }
+          },
+          {
+            "id": "3ffc9fe578bfa083",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": true,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "9e4d875d665ba843",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "horizontal",
+    "width": 332.5
+  },
+  "right": {
+    "id": "0fa0edb5ed3b75f7",
+    "type": "split",
+    "children": [
+      {
+        "id": "c2fb88017a5823ba",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "1a683c872eb80fea",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "957b2b5e5109b351",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Tech🪐⚛️🧚🦄⚡️🧚✨/Music 1/chord_definitions notation converter.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "68b88025b3807c26",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Tech🪐⚛️🧚🦄⚡️🧚✨/Music 1/chord_definitions notation converter.md"
+              }
+            }
+          },
+          {
+            "id": "2676214af2ee7247",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "2024-05-01.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "16b7a86c8f354bb9",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {}
+            }
+          },
+          {
+            "id": "413e20c6dc312c1a",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Tech🪐⚛️🧚🦄⚡️🧚✨/Music 1/chord_definitions notation converter.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          }
+        ],
+        "currentTab": 3
+      },
+      {
+        "id": "74f143df5a52dc0e",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "c0a199729bffcc1f",
+            "type": "leaf",
+            "state": {
+              "type": "map-of-content",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 469.5,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "obsidian-importer:Open Importer": false,
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "audio-recorder:Start/stop recording": false,
+      "zk-prefixer:Create new unique note": false,
+      "quick-tagger:Add tag to current note": false,
+      "obsidian-excalidraw-plugin:Create new drawing": false,
+      "quick-tagger:Remove tag from current note": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "map-of-content:Update Map of Content": false,
+      "card-board:CardBoard": false
+    }
+  },
+  "active": "a71854a1d5dd8741",
+  "lastOpenFiles": [
+    "Daily Notes by year🧵🪡/2024/Daily Notes, 2 Do's and Feedbacks.md",
+    "Tech🪐⚛️🧚🦄⚡️🧚✨/Music 1/Midi Python Script Generator.md",
+    "Tech🪐⚛️🧚🦄⚡️🧚✨/Music 1/chord_definitions notation converter.md",
+    "Tech🪐⚛️🧚🦄⚡️🧚✨/Mac Productivity/Apple Trouble shots/Résoudre le problème Airdrop➕ 2024-05-20 🛫 2024-05-20 ⏫.md",
+    "Tech🪐⚛️🧚🦄⚡️🧚✨/⌨️🖥️Command CLI🖥️/Commande Terminal console CLI.md",
+    "Tech🪐⚛️🧚🦄⚡️🧚✨/Mac Productivity/Apple Trouble shots",
+    "2024-05-01.md",
+    "Tech🪐⚛️🧚🦄⚡️🧚✨/☢️☢️CYBERSEC🔒🔒/Manage Backups/Automate Backup with proton/How to automate Backup with Proton.md",
+    "Tech🪐⚛️🧚🦄⚡️🧚✨/☢️☢️CYBERSEC🔒🔒/Manage Backups/My Mac Backup with Proton.md",
+    "Tech🪐⚛️🧚🦄⚡️🧚✨/☢️☢️CYBERSEC🔒🔒/Manage Backups/Automate Backup to Proton/Untitled.md",
+    "Tech🪐⚛️🧚🦄⚡️🧚✨/☢️☢️CYBERSEC🔒🔒/Manage Backups/Automate Backup with proton",
+    "Tech🪐⚛️🧚🦄⚡️🧚✨/☢️☢️CYBERSEC🔒🔒/Manage Backups/Automate Backup to Proton",
+    "--_---__-_BROUILLONSSSSSS_---_-_/Achat seche chaussure.md",
+    "Maths Haziel/Understand Math/Algebraic Calculation Numbers Calcul littéral/Puissances/Vocabulaire Puissance.excalidraw.md",
+    "Maths Haziel/Understand Math/Algebraic Calculation Numbers Calcul littéral/Puissances/Calcul de puissances.md",
+    "Hobbies🌟🌟😍/Pêche Elven/Lieux de Pêche Morbihan/Pointe du Bill.excalidraw.md",
+    "--_---__-_BROUILLONSSSSSS_---_-_/Brouiilllonyyonon.md",
+    "Tech🪐⚛️🧚🦄⚡️🧚✨/Mac Productivity/Obsidian/Plugins/Local AI plugins in Obsidian/How to Leverage Free Local LLM in Obsidian with Ollama Plugin OR Local GPT Plugin✅.md",
+    "Maths Haziel/Understand Math/Algebraic Calculation Numbers Calcul littéral/Puissances",
+    "𖡄💿💿⌗𖡄𖡄KB𖡄/🌆🌆Images&picture🌃🏙️/Screenshot 2024-05-19 at 23.39.14.png",
+    "Tech🪐⚛️🧚🦄⚡️🧚✨/Mac Productivity/RAYCAST/Raycast Snippet/Raycast Snippet Export.md",
+    "Tech🪐⚛️🧚🦄⚡️🧚✨/🧠🧚✨🦄AI✨🦄🧠🧚✨🦄/🐨🐨LOCALai🦴🦴/Olloma.md",
+    "Tech🪐⚛️🧚🦄⚡️🧚✨/Fight4Privacy/ID Gen/ID GENERATOR.md",
+    "𖡄💿💿⌗𖡄𖡄KB𖡄/🚫Old_NOTES 1/Notes/jfjgvj.md",
+    "Untitled.md",
+    "Tech🪐⚛️🧚🦄⚡️🧚✨/Music 1/Test and processed/Chord Step Built KB.md",
+    "Do🤒🤠🤠🤒/GetAFuckin'Job/Boond Arealti/AREALTI MAIA/Benchmark and new output for MAIA/Benchmark  MAIA.md",
+    "Tech🪐⚛️🧚🦄⚡️🧚✨/🧠🧚✨🦄AI✨🦄🧠🧚✨🦄/Speech-To-Text/Speech-To-Text=> AssemblyAi/✅ASSEMBLYAI (100 hours FREE)✅/Assembly API.md",
+    "Do🤒🤠🤠🤒/We/2DO WE.md",
+    "Tech🪐⚛️🧚🦄⚡️🧚✨/Mac Productivity/RAYCAST/Raycast Snippet/List of Snippets.md",
+    "𖡄💿💿⌗𖡄𖡄KB𖡄/🚫Old_NOTES 1/Recently Deleted/#2Do-1.md",
+    "𖡄💿💿⌗𖡄𖡄KB𖡄/🌆🌆Images&picture🌃🏙️/Convert Obsidian Markdown to Apple Note Markdown.json",
+    "--_---__-_BROUILLONSSSSSS_---_-_/Raycast Snippet export format in json.code-workspace",
+    "𖡄💿💿⌗𖡄𖡄KB𖡄/🌆🌆Images&picture🌃🏙️/example d'un cours parfaitement formaté pour Obsidian.pdf",
+    "𖡄💿💿⌗𖡄𖡄KB𖡄/🌆🌆Images&picture🌃🏙️/Example formatage des Maths code block pour Obsidian_2.jpeg",
+    "𖡄💿💿⌗𖡄𖡄KB𖡄/🌆🌆Images&picture🌃🏙️/Example formatage des Maths code block pour Obsidian_1.jpeg",
+    "𖡄💿💿⌗𖡄𖡄KB𖡄/TECH/Text code Formats",
+    "Maths Haziel/Understand Math/Resoudre équations",
+    "Maths Haziel/Understand Math/Algebraic Calculation OR Calcul littéral/Resoudre équations",
+    "𖡄💿💿⌗𖡄𖡄KB𖡄/🌆🌆Images&picture🌃🏙️/Pasted Image 20240519014405_414.png",
+    "𖡄💿💿⌗𖡄𖡄KB𖡄/🌆🌆Images&picture🌃🏙️/Pasted Image 20240519014235_434.png",
+    "𖡄💿💿⌗𖡄𖡄KB𖡄/🌆🌆Images&picture🌃🏙️/Pasted Image 20240519013905_361.png",
+    "𖡄💿💿⌗𖡄𖡄KB𖡄/🌆🌆Images&picture🌃🏙️/Screenshot 2024-05-18 at 19.33.17.png",
+    "𖡄💿💿⌗𖡄𖡄KB𖡄/🌆🌆Images&picture🌃🏙️/Screenshot 2024-05-18 at 19.23.09.png",
+    "𖡄💿💿⌗𖡄𖡄KB𖡄/🌆🌆Images&picture🌃🏙️/Screenshot 2024-05-18 at 19.17.25.png",
+    "𖡄💿💿⌗𖡄𖡄KB𖡄/🌆🌆Images&picture🌃🏙️/Screenshot 2024-05-18 at 11.11.24.png",
+    "Tech🪐⚛️🧚🦄⚡️🧚✨/Mac Productivity/Mac automation/Shortcuts OR Automations/Existing Shortcuts KB/Existing Shortcuts.canvas",
+    "Tech🪐⚛️🧚🦄⚡️🧚✨/Music 1/=>>🏋🏼🏋🏼Using the Zic GPTS improve troubleshoots.canvas",
+    "PARENTIQUE - PAS RANCE/Parentalité pour les Nuls.canvas",
+    "Tech🪐⚛️🧚🦄⚡️🧚✨/🧠🧚✨🦄AI✨🦄🧠🧚✨🦄/🐨🐨LOCALai🦴🦴/Finetuning/ALL CANVAS FINE-TUNE/Roadmap Main Guide of Instructions.canvas",
+    "IdeaBiz💡💡🌦️⚡️/From Page/Links to .pages IdeaBiz.canvas",
+    "Tech🪐⚛️🧚🦄⚡️🧚✨/🧠🧚✨🦄AI✨🦄🧠🧚✨🦄/🐨🐨LOCALai🦴🦴/Finetuning/ALL CANVAS FINE-TUNE/Finetune LLM.canvas",
+    "Tech🪐⚛️🧚🦄⚡️🧚✨/Mac Productivity/Mac automation/Shortcuts/Existing Shortcuts KB/Existing Shortcuts.canvas",
+    "Tech🪐⚛️🧚🦄⚡️🧚✨/Building Shortcuts Empress.canvas",
+    "Tech🪐⚛️🧚🦄⚡️🧚✨/Mac Productivity/Mac automation/Mac Apple Automation Central Canvas.canvas",
+    "Do🤒🤠🤠🤒/GetAFuckin'Job/Val and me/PRJ for Val/GetJob_Val_Canv.canvas"
+  ]
+}

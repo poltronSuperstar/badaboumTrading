@@ -1,0 +1,43 @@
+{
+  "choices": [],
+  "macros": [],
+  "inputPrompt": "single-line",
+  "devMode": false,
+  "templateFolderPath": "Template𝌭♻️🔰",
+  "announceUpdates": true,
+  "version": "1.9.0",
+  "disableOnlineFeatures": false,
+  "ai": {
+    "defaultModel": "llama3",
+    "defaultSystemPrompt": "As an AI assistant within Obsidian, your primary goal is to help users manage their ideas and knowledge more effectively. Format your responses using Markdown syntax. Please use the [[Obsidian]] link format. You can write aliases for the links by writing [[Obsidian|the alias after the pipe symbol]]. To use mathematical notation, use LaTeX syntax. LaTeX syntax for larger equations should be on separate lines, surrounded with double dollar signs ($$). You can also inline math expressions by wrapping it in $ symbols. For example, use $$w_{ij}^{\text{new}}:=w_{ij}^{\text{current}}+etacdotdelta_jcdot x_{ij}$$ on a separate line, but you can write \"($eta$ = learning rate, $delta_j$ = error term, $x_{ij}$ = input)\" inline.",
+    "promptTemplatesFolderPath": "",
+    "showAssistant": true,
+    "providers": [
+      {
+        "name": "Ollama",
+        "endpoint": "http://localhost:11434",
+        "apiKey": "",
+        "models": [
+          {
+            "name": "llama3",
+            "maxTokens": 8000
+          }
+        ]
+      }
+    ]
+  },
+  "migrations": {
+    "migrateToMacroIDFromEmbeddedMacro": true,
+    "useQuickAddTemplateFolder": true,
+    "incrementFileNameSettingMoveToDefaultBehavior": true,
+    "mutualExclusionInsertAfterAndWriteToBottomOfFile": true,
+    "setVersionAfterUpdateModalRelease": true,
+    "addDefaultAIProviders": true
+  },
+  "userScripts": [
+    {
+      "name": "duplicateTags",
+      "code": "module.exports = async (params) => {\n    const app = params.app;\n\n    // Prompt user for source and target files\n    const sourceFile = await app.plugins.plugins[\"quickadd\"].api.fileSuggester(\"Select the source file\");\n    if (!sourceFile) {\n        new Notice(\"No source file selected\");\n        return;\n    }\n\n    const targetFile = await app.plugins.plugins[\"quickadd\"].api.fileSuggester(\"Select the target file\");\n    if (!targetFile) {\n        new Notice(\"No target file selected\");\n        return;\n    }\n\n    // Read contents of the source file\n    const sourceContents = await app.vault.read(sourceFile);\n    const sourceFrontmatter = sourceContents.match(/^---\\n(.*?)\\n---\\n(.*)$/s);\n    if (!sourceFrontmatter) {\n        new Notice(\"No frontmatter found in source file\");\n        return;\n    }\n\n    const sourceTagsMatch = sourceFrontmatter[1].match(/tags:\\s*\\[(.*?)\\]/s);\n    if (!sourceTagsMatch) {\n        new Notice(\"No tags found in source file\");\n        return;\n    }\n\n    const sourceTags = sourceTagsMatch[1].split(\",\").map(tag => tag.trim()).filter(tag => tag);\n\n    if (sourceTags.length === 0) {\n        new Notice(\"No tags to duplicate in source file\");\n        return;\n    }\n\n    // Read contents of the target file\n    const targetContents = await app.vault.read(targetFile);\n    const targetFrontmatter = targetContents.match(/^---\\n(.*?)\\n---\\n(.*)$/s);\n    if (!targetFrontmatter) {\n        new Notice(\"No frontmatter found in target file\");\n        return;\n    }\n\n    const targetTagsMatch = targetFrontmatter[1].match(/tags:\\s*\\[(.*?)\\]/s);\n    let targetTags = [];\n    if (targetTagsMatch) {\n        targetTags = targetTagsMatch[1].split(\",\").map(tag => tag.trim()).filter(tag => tag);\n    }\n\n    // Filter out tags that already exist in the target file\n    const newTags = sourceTags.filter(tag => !targetTags.includes(tag));\n\n    if (newTags.length === 0) {\n        new Notice(\"No new tags to add\");\n        return;\n    }\n\n    // Update target tags\n    const allTags = [...targetTags, ...newTags];\n    const newTagsString = allTags.join(\", \");\n\n    const newTargetFrontmatter = targetFrontmatter[1].replace(targetTagsMatch ? targetTagsMatch[0] : 'tags: []', `tags: [${newTagsString}]`);\n    const newTargetContents = targetContents.replace(targetFrontmatter[0], `---\\n${newTargetFrontmatter}\\n---\\n${targetFrontmatter[2]}`);\n\n    await app.vault.modify(targetFile, newTargetContents);\n    new Notice(\"Tags duplicated successfully\");\n};"
+    }
+  ]
+}

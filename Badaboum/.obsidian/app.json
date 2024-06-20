@@ -1,1 +1,17 @@
-{}
+{
+  "alwaysUpdateLinks": true,
+  "pdfExportSettings": {
+    "includeName": true,
+    "pageSize": "A4",
+    "landscape": false,
+    "margin": "0",
+    "downscalePercent": 100
+  },
+  "attachmentFolderPath": "./",
+  "promptDelete": false,
+  "useMarkdownLinks": true,
+  "showLineNumber": true,
+  "trashOption": "local",
+  "newFileLocation": "folder",
+  "newFileFolderPath": "/Users/julienhenry/Library/Mobile Documents/iCloud~md-obsidian"
+}

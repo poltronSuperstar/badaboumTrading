@@ -1,1 +1,9 @@
-{}
+{
+  "accentColor": "#a98bee",
+  "baseFontSize": 19,
+  "textFontFamily": "Avenir,Andale Mono,DIN Alternate,Krungthep,American Typewriter,Didot,Avenir Next Condensed",
+  "theme": "system",
+  "cssTheme": "Obsidian gruvbox",
+  "interfaceFontFamily": "Arial,Arial Black,Andale Mono,Bradley Hand",
+  "translucency": true
+}

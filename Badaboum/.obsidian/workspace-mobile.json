@@ -1,0 +1,382 @@
+{
+  "main": {
+    "id": "32cc4bd1e8c027c4",
+    "type": "split",
+    "children": [
+      {
+        "id": "680d4a31346d22ce",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "725ebdff77507d3c",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
+          },
+          {
+            "id": "331ebac932d58196",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "--_---__-_BROUILLONSSSSSS_---_-_/À écouter.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "be93636da7faeebe",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "--_---__-_BROUILLONSSSSSS_---_-_/À écouter.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "f213d64c05a35129",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
+          },
+          {
+            "id": "5968487108255701",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "--_---__-_BROUILLONSSSSSS_---_-_/Copie debunk brigitte pour X sur mobile.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "326bec258ac50932",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
+          },
+          {
+            "id": "4c000a8936e60242",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
+          },
+          {
+            "id": "f4abae474c07f5a2",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
+          },
+          {
+            "id": "49113339ca4070a7",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
+          },
+          {
+            "id": "be20535e52a50505",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
+          },
+          {
+            "id": "6468a6d6559c1657",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
+          },
+          {
+            "id": "9a6d919e93754127",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
+          },
+          {
+            "id": "d44d4e77a0c5b26d",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
+          },
+          {
+            "id": "a16115bb60797dfc",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "--_---__-_BROUILLONSSSSSS_---_-_/À écouter.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "59a10d7fd29b6d8e",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
+          },
+          {
+            "id": "945ead6009e5c4b3",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "--_---__-_BROUILLONSSSSSS_---_-_/Courses.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "255133b765971c7f",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
+          },
+          {
+            "id": "35ae42523d24853d",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
+          },
+          {
+            "id": "4e022605c472daaa",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
+          }
+        ],
+        "currentTab": 15
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "6e7efbf0055b0ff4",
+    "type": "mobile-drawer",
+    "children": [
+      {
+        "id": "d6783570cb4cfb90",
+        "type": "leaf",
+        "state": {
+          "type": "file-explorer",
+          "state": {
+            "sortOrder": "alphabetical"
+          }
+        }
+      },
+      {
+        "id": "22d2f5a3e3eb1cdc",
+        "type": "leaf",
+        "state": {
+          "type": "search",
+          "state": {
+            "query": "Template",
+            "matchingCase": false,
+            "explainSearch": false,
+            "collapseAll": false,
+            "extraContext": false,
+            "sortOrder": "alphabetical"
+          }
+        }
+      },
+      {
+        "id": "1dcd0f1b9a9f5546",
+        "type": "leaf",
+        "state": {
+          "type": "tag",
+          "state": {
+            "sortOrder": "frequency",
+            "useHierarchy": true
+          }
+        }
+      },
+      {
+        "id": "287ad38ce239880e",
+        "type": "leaf",
+        "state": {
+          "type": "bookmarks",
+          "state": {}
+        }
+      }
+    ],
+    "currentTab": 0
+  },
+  "right": {
+    "id": "2c9999ec15c53327",
+    "type": "mobile-drawer",
+    "children": [
+      {
+        "id": "9807959e9b5a485f",
+        "type": "leaf",
+        "state": {
+          "type": "outgoing-link",
+          "state": {
+            "file": "--_---__-_BROUILLONSSSSSS_---_-_/Courses.md",
+            "linksCollapsed": false,
+            "unlinkedCollapsed": true
+          }
+        }
+      },
+      {
+        "id": "7ebcf2b6ded9bee8",
+        "type": "leaf",
+        "state": {
+          "type": "outline",
+          "state": {
+            "file": "--_---__-_BROUILLONSSSSSS_---_-_/Courses.md"
+          }
+        }
+      },
+      {
+        "id": "39e5740986b21653",
+        "type": "leaf",
+        "state": {
+          "type": "map-of-content",
+          "state": {}
+        }
+      },
+      {
+        "id": "4d26c39bdef7b737",
+        "type": "leaf",
+        "state": {
+          "type": "calendar",
+          "state": {}
+        }
+      },
+      {
+        "id": "cdc7e1c563722b6a",
+        "type": "leaf",
+        "state": {
+          "type": "backlink",
+          "state": {
+            "file": "--_---__-_BROUILLONSSSSSS_---_-_/Courses.md",
+            "collapseAll": false,
+            "extraContext": false,
+            "sortOrder": "alphabetical",
+            "showSearch": false,
+            "searchQuery": "",
+            "backlinkCollapsed": false,
+            "unlinkedCollapsed": true
+          }
+        }
+      }
+    ],
+    "currentTab": 0
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "quick-tagger:Add tag to current note": false,
+      "quick-tagger:Remove tag from current note": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "zk-prefixer:Create new unique note": false,
+      "audio-recorder:Start/stop recording": false,
+      "obsidian-excalidraw-plugin:Create new drawing": false,
+      "map-of-content:Update Map of Content": false
+    }
+  },
+  "active": "945ead6009e5c4b3",
+  "lastOpenFiles": [
+    "Entrainement Triathlon Yuna Malo pour Seb/Plan d'entraînement de 1 mois pour un enfant de 11 ans.md",
+    "Entrainement Triathlon Yuna Malo pour Seb",
+    "Tech🪐⚛️🧚🦄⚡️🧚✨/Prompts&GPTs💻⚙️🤖💻⚙️🤖⚙️⚙️/GPTs/Triathlon Coach for Childen",
+    "Template𝌭♻️🔰/GPT'S TEMPLATE.md",
+    "--_---__-_BROUILLONSSSSSS_---_-_/Test maree.md",
+    "𖡄💿💿⌗𖡄𖡄KB𖡄/🌆🌆Images&picture🌃🏙️/Pasted Image 20240510100932_379.png",
+    "𖡄💿💿⌗𖡄𖡄KB𖡄/🌆🌆Images&picture🌃🏙️/Pasted Image 20240510100820_353.png",
+    "𖡄💿💿⌗𖡄𖡄KB𖡄/🌆🌆Images&picture🌃🏙️/Pasted Image 20240510100935_369.png",
+    "𖡄💿💿⌗𖡄𖡄KB𖡄/🌆🌆Images&picture🌃🏙️/Pasted Image 20240510100905_365.png",
+    "2024-05-10.md",
+    "Hobbies🌟🌟😍/Pêche/Lieux de Pêche Morbihan/From Mieux Pêcher.md",
+    "Hobbies🌟🌟😍/Pêche/Lieux de Pêche Morbihan/Pointe du Bill.excalidraw.md",
+    "Hobbies🌟🌟😍/Pêche/Eschage/Eschage encornet.excalidraw.md",
+    "Hobbies🌟🌟😍/Pêche/Eschage/Baits; Appâts.md",
+    "Hobbies🌟🌟😍/Pêche/Eschage/eschage encornet.md",
+    "Hobbies🌟🌟😍/Pêche/Eschage/Eschage Sardine.md",
+    "Hobbies🌟🌟😍/Pêche/Lieux de Pêche Morbihan",
+    "Hobbies🌟🌟😍/Pêche/Eschage",
+    "Hobbies🌟🌟😍/Pêche",
+    "--_---__-_BROUILLONSSSSSS_---_-_/Courses.md",
+    "Hobbies🌟🌟😍/Elven/Pêche/Untitled.md",
+    "Template𝌭♻️🔰/Fiche de Pêche.md",
+    "Daily note.md",
+    "Untitled.md",
+    "Twitter/Idriss Vaccination Transmissibility,.md",
+    "2024-05-01.md",
+    "PARENTIQUE - PAS RANCE/Éducation Préventive.md",
+    "Tech🪐⚛️🧚🦄⚡️🧚✨/🧠🧚✨🦄AI✨🦄🧠🧚✨🦄/🐨🐨LOCALai🦴🦴/LMStudio/LMStudio Local Server Inference/Environnement( envi)/Create a virtual environnement.md",
+    "Tech🪐⚛️🧚🦄⚡️🧚✨/Fight4Privacy/Cloaked.md",
+    "Journaling🧵🪡",
+    "--_---__-_BROUILLONSSSSSS_---_-_/Test for Task/This note's goal is to test the Task plugin.md",
+    "--_---__-_BROUILLONSSSSSS_---_-_/Test for Task",
+    "Template𝌭♻️🔰/Daily Note.md",
+    "Template𝌭♻️🔰",
+    "--_---__-_BROUILLONSSSSSS_---_-_/DM to Zaka.md",
+    "Tech🪐⚛️🧚🦄⚡️🧚✨/Mac Productivity/Mac automation/Shortcuts OR Automations/Automatiser le signalement de comptes relais de la désinformation en ligne via.md",
+    "Tech🪐⚛️🧚🦄⚡️🧚✨/Mac Productivity/Mac automation/Shortcuts OR Automations/Apple Shortcuts, Keyboard Maestro, Open Source or free ?.md",
+    "✳️⚡️🧠⸮🍾Meta Canvas/🐙⚛️⚡️🪐⸮🤓＃INFOSTRUCT/Hashtags/All Hashtags #GPT35 & Mi8Xtral Q3 #LMStudio.md",
+    "𖡄💿💿⌗𖡄𖡄KB𖡄/🌆🌆Images&picture🌃🏙️/IMG_9480.jpeg",
+    "Tech🪐⚛️🧚🦄⚡️🧚✨/Prompts&GPTs💻⚙️🤖💻⚙️🤖⚙️⚙️/Meta GPTs & Prompts/Creativity/Cross-reference Knowledge",
+    "𖡄💿💿⌗𖡄𖡄KB𖡄/🌆🌆Images&picture🌃🏙️/Pasted image 20240409000004.png",
+    "𖡄💿💿⌗𖡄𖡄KB𖡄/🌆🌆Images&picture🌃🏙️/Screenshot 2024-04-05 at 18.52.49.png",
+    "𖡄💿💿⌗𖡄𖡄KB𖡄/🌆🌆Images&picture🌃🏙️/Screenshot 2024-04-05 at 18.53.16.png",
+    "Tech🪐⚛️🧚🦄⚡️🧚✨/🧠🧚✨🦄AI✨🦄🧠🧚✨🦄/🐨🐨LOCALai🦴🦴/Finetuning/ALL CANVAS FINE-TUNE/Roadmap Main Guide of Instructions.canvas",
+    "Tech🪐⚛️🧚🦄⚡️🧚✨/🧠🧚✨🦄AI✨🦄🧠🧚✨🦄/🐨🐨LOCALai🦴🦴/Finetuning/ALL CANVAS FINE-TUNE/Finetune LLM.canvas",
+    "Tech🪐⚛️🧚🦄⚡️🧚✨/🧠🧚✨🦄AI✨🦄🧠🧚✨🦄/🐨🐨LOCALai🦴🦴/Finetuning/ALL CANVAS FINE-TUNE",
+    "𖡄💿💿⌗𖡄𖡄KB𖡄/🌆🌆Images&picture🌃🏙️/Screenshot 2024-04-05 at 22.33.33 1.png",
+    "𖡄💿💿⌗𖡄𖡄KB𖡄/🌆🌆Images&picture🌃🏙️/Screenshot 2024-04-05 at 22.33.33.png",
+    "L'éducation parentale pour les nuls/Parentalité pour les Nuls.canvas",
+    "Tech🪐⚛️🧚🦄⚡️🧚✨/Mac Productivity/Mac automation/Shortcuts OR Automations/Existing Shortcuts KB/Existing Shortcuts.canvas",
+    "Tech🪐⚛️🧚🦄⚡️🧚✨/🐨🐨LOCALai🦴🦴/Finetuning/Finetuning test&learn/LLM Finetuning Tools/Manage Tools/Tool Management.canvas",
+    "Tech🪐⚛️🧚🦄⚡️🧚✨/🐨🐨LOCALai🦴🦴/Finetuning/Finetuning test&learn/Finetune LLM.canvas",
+    "Tech🪐⚛️🧚🦄⚡️🧚✨/🐨🐨LOCALai🦴🦴/Finetuning/Roadmap Main Guide of Instructions.canvas",
+    "Tech🪐⚛️🧚🦄⚡️🧚✨/🐨🐨LOCALai🦴🦴/LocalAGI.canvas",
+    "Tech🪐⚛️🧚🦄⚡️🧚✨/Music 1/=>>🏋🏼🏋🏼Using the Zic GPTS improve troubleshoots.canvas",
+    "🤠🤠Do🤒🤒/L'éducation parentale pour les nuls/Parentalité pour les Nuls.canvas"
+  ]
+}

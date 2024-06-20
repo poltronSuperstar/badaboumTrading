@@ -1,0 +1,140 @@
+{
+  "all_tags": true,
+  "preffered_casing": "None",
+  "priorityTags": [
+    {
+      "tag_value": "#AI",
+      "cut_in_line": false,
+      "add_command": false,
+      "status_bar": false,
+      "right_click": true
+    },
+    {
+      "tag_value": "#Tech",
+      "cut_in_line": false,
+      "add_command": false,
+      "status_bar": false,
+      "right_click": true
+    },
+    {
+      "tag_value": "#LLM",
+      "cut_in_line": false,
+      "add_command": false,
+      "status_bar": false,
+      "right_click": true
+    },
+    {
+      "tag_value": "#debunk",
+      "cut_in_line": false,
+      "add_command": false,
+      "status_bar": false,
+      "right_click": true
+    },
+    {
+      "tag_value": "#Desinformation",
+      "cut_in_line": false,
+      "add_command": false,
+      "status_bar": false,
+      "right_click": true
+    },
+    {
+      "tag_value": "#KB",
+      "cut_in_line": false,
+      "add_command": false,
+      "status_bar": false,
+      "right_click": true
+    },
+    {
+      "tag_value": "#prompt",
+      "cut_in_line": false,
+      "add_command": false,
+      "status_bar": false,
+      "right_click": true
+    },
+    {
+      "tag_value": "#Local",
+      "cut_in_line": false,
+      "add_command": false,
+      "status_bar": false,
+      "right_click": true
+    },
+    {
+      "tag_value": "#OpenSource",
+      "cut_in_line": false,
+      "add_command": false,
+      "status_bar": false,
+      "right_click": true
+    },
+    {
+      "tag_value": "#script",
+      "cut_in_line": false,
+      "add_command": false,
+      "status_bar": false,
+      "right_click": true
+    },
+    {
+      "tag_value": "#code",
+      "cut_in_line": false,
+      "add_command": false,
+      "status_bar": false,
+      "right_click": true
+    },
+    {
+      "tag_value": "#ArtificialCognition",
+      "cut_in_line": false,
+      "add_command": false,
+      "status_bar": false,
+      "right_click": true
+    },
+    {
+      "tag_value": "#CLI",
+      "cut_in_line": false,
+      "add_command": false,
+      "status_bar": false,
+      "right_click": true
+    },
+    {
+      "tag_value": "#python",
+      "cut_in_line": false,
+      "add_command": false,
+      "status_bar": false,
+      "right_click": true
+    },
+    {
+      "tag_value": "#GPT",
+      "cut_in_line": false,
+      "add_command": false,
+      "status_bar": false,
+      "right_click": true
+    },
+    {
+      "tag_value": "#LocalAi",
+      "cut_in_line": false,
+      "add_command": false,
+      "status_bar": false,
+      "right_click": true
+    },
+    {
+      "tag_value": "#LocalServerInference",
+      "cut_in_line": false,
+      "add_command": false,
+      "status_bar": false,
+      "right_click": true
+    },
+    {
+      "tag_value": "#LMStudio",
+      "cut_in_line": false,
+      "add_command": false,
+      "status_bar": false,
+      "right_click": true
+    },
+    {
+      "tag_value": "#learn",
+      "cut_in_line": false,
+      "add_command": false,
+      "status_bar": false,
+      "right_click": true
+    }
+  ],
+  "last_used_tag": "#LLM"
+}

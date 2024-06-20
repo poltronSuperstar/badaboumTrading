@@ -1,0 +1,71 @@
+{
+  "ollamaUrl": "http://localhost:11434",
+  "commands": [
+    {
+      "name": "Summatize Selection",
+      "prompt": "Summarize selection Act as a writer. Summarize the text in a view sentences highlighting the key takeaways. Output only the text and nothing Remove else, do not chat, no preamble, get to the point.",
+      "model": "llama3"
+    },
+    {
+      "name": "Explain Selection",
+      "prompt": "Explains give explictit understanding insights using a progressiv complexity built from the simplest and easy-to-learn to the morst detailled, well organized and complex informations. You are both flen,tly accurate in French as well as in English. ",
+      "model": "llama3"
+    },
+    {
+      "name": "Sumarize Using Bullet",
+      "prompt": "Imagine a heading/priority, bullet point, any format obsidian Markdown leveled summarize of selection",
+      "model": "llama3",
+      "temperature": 0.22
+    },
+    {
+      "name": "General Help",
+      "prompt": "You are an assistant helping a user write more content in a document based on a prompt. Output in markdown format. Do not use links. Do not include literal content from the original document.",
+      "model": "llama3"
+    },
+    {
+      "name": "Markdown Format Expert",
+      "prompt": "Act as a Markdown writer expert.  Convert the selected text into its best Markdown version for an ultimate reading experience and the best clarity. \nThe formats include :\n### Headings\n```markdown\n# H1\n## H2\n### H3\n#### H4\n##### H5\n###### H6\n```\n\n### Emphasis\n```markdown\n*Italic* or _Italic_\n**Bold** or __Bold__\n***Bold and Italic*** or ___Bold and Italic___\n```\n\n### Blockquotes\n```markdown\n> This is a blockquote.\n>> Nested blockquote.\n```\n\n### Lists\n#### Unordered Lists\n```markdown\n- Item 1\n  - Subitem 1\n  - Subitem 2\n- Item 2\n  - Subitem 3\n  - Subitem 4\n```\n\n#### Ordered Lists\n```markdown\n1. Item 1\n2. Item 2\n   1. Subitem 1\n   2. Subitem 2\n3. Item 3\n```\n\n### Code\n#### Inline Code\n```markdown\n`Inline code`\n```\n\n#### Code Blocks\n````markdown\n```\nCode block\n```\n````\n\n### Horizontal Rules\n```markdown\n---\nor\n***\nor\n___\n```\n\n### Links\n```markdown\n[Text](URL)\n[Text](URL \"Title\")\n```\n\n### Images\n```markdown\n![Alt text](URL)\n![Alt text](URL \"Title\")\n```\n\n### Tables\n```markdown\n| Header 1 | Header 2 |\n| -------- | -------- |\n| Cell 1   | Cell 2   |\n| Cell 3   | Cell 4   |\n```\n\n### Task Lists\n```markdown\n- [x] Task 1\n- [ ] Task 2\n- [ ] Task 3\n```\n\n### HTML in Markdown\n```markdown\n<p>This is an HTML paragraph.</p>\n<b>This is bold text in HTML.</b>\n<i>This is italic text in HTML.</i>\n```\n\n### Footnotes\n```markdown\nThis is a sentence with a footnote.[^1]\n\n[^1]: This is the footnote.\n```\n\n### Strikethrough\n```markdown\n~~Strikethrough~~\n```\n\n### Definition Lists\n```markdown\nTerm 1\n: Definition 1\n\nTerm 2\n: Definition 2\n```\n\n### Adding Comments\n```markdown\n<!-- This is a comment -->\n```\n\n### Emojis\n```markdown\n:smile:\n```\n\n### Escaping Characters\n```markdown\n\\*literal asterisks\\*\n```\n\n### Extended Syntax (may vary based on the Markdown flavor)\n#### Task Lists (GitHub Flavored Markdown)\n```markdown\n- [x] Completed task\n- [ ] Incomplete task\n```\n\n#### Table of Contents (Markdown All in One)\n```markdown\n[TOC]\n```\n\n#### Fenced Code Blocks with Syntax Highlighting\n```markdown\n```python\ndef hello():\n    print(\"Hello, world!\")\n``````\n\nThis list covers the most common Markdown formatting options. Different Markdown processors and platforms might support additional features or have slight variations in syntax.\n\n\nDo not include any other text or preamble, just the formatted text.\n",
+      "model": "llama3"
+    },
+    {
+      "name": "Captation Selection",
+      "prompt": "Act as a writer. Create only one single heading for the whole text that is giving a good understanding of what the reader can expect. Output only the caption and nothing else, do not chat, no preamble, get to the point. Your format should be ## Caption.",
+      "model": "llama3"
+    },
+    {
+      "name": "Rewrite Selection ( Bullet Points )",
+      "prompt": "Act as a writer. Rewrite the text into bullet points while keeping the same meaning. Output only the text and nothing else, do not chat, no preamble, get to the point.",
+      "model": "llama3"
+    },
+    {
+      "name": "Expand Selection",
+      "prompt": "Act as a writer. Expand the selection keeping the same meaning. Output only the text and nothing else, do not chat, no preamble, get to the point.",
+      "model": "llama3"
+    },
+    {
+      "name": "Create & format like a note title",
+      "prompt": "Act as a writer. Summarize the text into a short and clear [[Note Title Template Example]]. Output only the text between the two double '[]' and nothing else, do not chat, no preamble, get to the point.",
+      "model": "llama3"
+    },
+    {
+      "name": "Convert this into a New Note Title",
+      "prompt": "Act as a writer. Read and understand this, and, then, imagine a brief and self-explicit note title suggestion respecting this template or form : \"[Note Title 'Example' for You To Understand in Which Form Your Output Will Be Formatted]]\". Only Output :\" [l\"Your _Title_Suggestion]]\". Do not chat nor preamble: get to the point.",
+      "model": "llama3"
+    },
+    {
+      "name": "Markdown Heading Organizer",
+      "prompt": "Act as a writer. Read and understand the text to rewrite it using a logical Heading strategy organizing the content in parts, sub-parts, etc, ... Output only the text and nothing else, do not chat, no preamble, get to the point.",
+      "model": "llama3"
+    },
+    {
+      "name": "US_EN Translator",
+      "prompt": "Act as a writer. Translate to US English the following text and respect the exact same Markdown Format, except for the in-note hyperlinks linking headings with their corresponding section in the note needing edition.\n ",
+      "model": "llama3"
+    },
+    {
+      "name": "French Translator",
+      "prompt": "Act as a writer. Translate to French the following text and respect the exact same Markdown Format, except for the in-note hyperlinks linking headings with its corresponding section in the note needing edition.",
+      "model": "llama3"
+    }
+  ]
+}
