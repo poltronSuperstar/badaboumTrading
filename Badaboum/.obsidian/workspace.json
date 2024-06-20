@@ -195,13 +195,13 @@
       "audio-recorder:Start/stop recording": false,
       "zk-prefixer:Create new unique note": false,
       "obsidian-excalidraw-plugin:Create new drawing": false,
-      "map-of-content:Update Map of Content": false,
       "quick-tagger:Add tag to current note": false,
       "quick-tagger:Remove tag from current note": false,
       "table-editor-obsidian:Advanced Tables Toolbar": false,
       "obsidian-importer:Open Importer": false,
       "juggl:Juggl global graph": false,
-      "obsidian-kanban:Create new board": false
+      "obsidian-kanban:Create new board": false,
+      "map-of-content:Update Map of Content": false
     }
   },
   "active": "68b88025b3807c26",
